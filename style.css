@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F7F7F7;
+}
+
+.menu_content {
+  width: 70px;
+  height: 70px;
+}
+
+.item {
+  border-radius: 50%;
+  color: #FFF;
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
